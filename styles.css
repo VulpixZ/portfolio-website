@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 10vh;
+}
+
+header {
+    text-align: center;
+    padding: 5vh 0;
+}
+
+header h1, header h2 {
+    font-weight: bold;
+}
+
+body {
+    font-size: 3vh;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5vh;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5vh;
+    margin-top: 10vh;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    margin: 10vh 0;
+    padding: 5vh;
+    border: 1vh solid white;
+    box-shadow: 0 4vh 10vh rgba(255, 255, 255, 0.2);
+}
+
+footer {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    width: 15vh;
+    height: auto;
+    border-radius: 100%;
+    margin-right: 2vh;
+}
+
+.about-info p {
+    margin: 1vh 0;
+}
+
+.education-icon {
+    width: 15vh;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 2vh;
+}
